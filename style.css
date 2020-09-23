@@ -34,7 +34,6 @@ button:active {
 
 .container{
     margin: 0;
-    margin-left: 60px;
 }
 
 .navbar{
@@ -42,8 +41,6 @@ button:active {
     width: 100%;
     background-color:gray;
     color:white;
-    padding-top:10px;
-    padding-bottom: 10px;
     padding-left: 100px;
     z-index:100;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -58,7 +55,7 @@ button:active {
 .nav{
     z-index : 100;
     position: fixed;
-    top: 20px;
+    top: 10px;
     right: 10px;
 }
 
@@ -105,30 +102,62 @@ button:active {
 }
 
 #header{
-    height: 80vh;
+    height: 85vh;
     padding-top: 100px;
-    padding-left:40px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    background-color: lightgray;
+}
+
+#header .headerBox{
+    width:50%;
+    margin:auto;
+    padding-top: 100px;
+    text-align:center;
 }
 
 #header img{
-    margin-top:40px;
-    margin-left:40px;
-    float:left;
+    width: 150px;
+    border-radius: 50%;
 }
 
-.header-title {
-    float:left;
-    padding-top: 20vh;
-    padding-right:50px;
-    font-size: 1.5em;
-    width:55%;
+#header h2{
+    font-size: 2em;
+    font-weight: lighter;
+    margin:5px;
 }
 
-.header-title .special{
-    font-weight:bold;
-    font-size:1.6em;
+#header .bold{
+    font-size: 2.2em;
+    font-weight: bolder;
+}
+
+#header .introBox{
+    width:50%;
+    margin:auto;
+    padding-top: 5px;
+    border-top: 2px solid black;
+}
+
+#skillBox{
+    height: 80px;
+    width:60%;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#skillBox .skill{
+    width:33%;
+    float:left;
+    text-align:center;
+}
+
+#skillBox img{
+    height:80px;
 }
 
 #work{
@@ -150,7 +179,7 @@ button:active {
     min-height: 90vh;
     display: block;
     margin-bottom: 50px;
-    padding-left: 40px;
+    padding-left: 100px;
     padding-top: 50px;
 }
 
@@ -212,12 +241,14 @@ button:active {
     width: 25%;
     margin-right: 5%;
     float: left;
-    background-color:#4675A8;
-    color:white;
-    border-radius:20px;
     margin-top:30px;
     padding-top:2px;
     padding-bottom:2px;
+}
+
+.part3 .mid{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .part3 .elem p{
@@ -258,10 +289,12 @@ button:active {
 
 .logoDesign{
     min-height: 120vh;
-    margin-bottom: 50px;
     padding-left: 40px;
     width:60%;
     margin:auto;
+    margin-bottom: 50px;
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .logoDesign .image{
@@ -276,19 +309,6 @@ button:active {
     margin: 20px;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.logoDesign img{
-    -webkit-filter: brightness(75%);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    }
-    
-.logoDesign img:hover{
-    -webkit-filter: brightness(100%);
 }
 
 .longLeft{
@@ -324,10 +344,14 @@ button:active {
     float:left;
     background-color:gray;
     color: white;
-    height:280px;
+    padding:30px;
     border:0;
     text-align:center;
     font-size: 1.1em;
+}
+
+#contact .c2{
+    margin-top:0;
 }
 
 #contact a{

@@ -29,6 +29,7 @@ button {
 
 button:hover {
   background-color: lightgrey;
+  color: black;
 }
 
 button:active {
@@ -38,10 +39,9 @@ button:active {
 .navbar{
   position:fixed;
   width: 100%;
-  background-color:white;
-  padding-top:10px;
-  padding-bottom: 10px;
-  padding-left:60px;
+  background-color:gray;
+  color: white;
+  padding-left:100px;
   padding-right:50px;
   z-index:100;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -61,7 +61,7 @@ button:active {
 .nav{
   z-index : 100;
   position: fixed;
-  top: 20px;
+  top: 10px;
   right: 10px;
 }
 
@@ -79,13 +79,29 @@ button:active {
 
 .nav button{
   border:0;
-  background-color: white;
+  background-color: gray;
+  color:white;
   min-height:30px;
   font-size:1.1em;
+  border-radius:5px;
 }
 
 .nav a{
-  padding:2px;
+  color: white;
+  padding:5px;
+  border-radius:5px;
+}
+
+.nav .resume{
+  background-color:lightgray;
+}
+
+.nav .resume a{
+  color:black;
+}
+
+.nav a:hover {
+  color: black;
 }
 
 .navbarV {
@@ -862,4 +878,48 @@ time {
     border-width: 8px 16px 8px 0;
     border-color: transparent lightblue transparent transparent;
   }
+}
+
+#contact{
+  width:100%;
+  float:left;
+  background-color:gray;
+  color: white;
+  padding: 30px;
+  border:0;
+  text-align:center;
+  font-size: 1.1em;
+}
+
+#contact .c2{
+  margin-top:0;
+}
+
+#contact a{
+  color: white;
+  padding: 5px;
+  border-radius:5px;
+}
+
+#contact a:hover{
+  background-color: lightgray;
+  color: black;
+}
+
+#contact .contDetails{
+  width:30%;
+  margin:auto;
+  padding:10px;
+  border: 1px solid white;
+  border-radius:5px;
+}
+
+#contact .links{
+ margin-top:20px;
+}
+
+#contact .links .linkSub{
+  width:33%;
+  float:left;
+  font-size:1.2em;
 }
