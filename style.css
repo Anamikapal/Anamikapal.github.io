@@ -25,6 +25,7 @@ button {
 
 button:hover {
     background-color: lightgrey;
+    color: black;
 }
 
 button:active {
@@ -39,9 +40,11 @@ button:active {
 .navbar{
     position:fixed;
     width: 100%;
-    background-color:white;
+    background-color:gray;
+    color:white;
     padding-top:10px;
     padding-bottom: 10px;
+    padding-left: 100px;
     z-index:100;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -73,13 +76,32 @@ button:active {
 
 .nav button{
     border:0;
-    background-color: white;
+    background-color: gray;
+    color:white;
     min-height:30px;
     font-size:1.1em;
+    border-radius:5px;
 }
 
 .nav a{
-    padding:2px;
+    color: white;
+}
+
+.nav button:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.nav .resume{
+    background-color:lightgray;
+}
+
+.nav .resume a{
+    color:black;
+}
+
+.nav a:hover {
+    color: black;
 }
 
 #header{
@@ -298,142 +320,41 @@ button:active {
 }
 
 #contact{
-    width:75%;
+    width:100%;
     float:left;
-    padding-left:5%;
-    background-color:lightgrey;
-    height:150px;
+    background-color:gray;
+    color: white;
+    height:280px;
     border:0;
-}
-
-.contact-content {
     text-align:center;
+    font-size: 1.1em;
 }
 
-.contDetails{
-    float: left;
-    width: 30%;
-    font-size:1.2em;
+#contact a{
+    color: white;
+    padding: 5px;
+    border-radius:5px;
+}
+
+#contact a:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+#contact .contDetails{
+    width:30%;
+    margin:auto;
+    padding:10px;
+    border: 1px solid white;
+    border-radius:5px;
+}
+
+#contact .links{
+   margin-top:20px;
+}
+
+#contact .links .linkSub{
+    width:33%;
     float:left;
-    padding:0;
-    text-align:left;
+    font-size:1.2em;
 }
-
-  
-.contLinks {
-    display: inline-block;
-    -ms-transform:translate(-50%,-50%);
-    -webkit-transform:translate(-50%,-50%);
-    transform:translate(-50%,-50%);
-    margin-left:100px;
-  }
-  
-  /* Icons */
-  
-  .contLinks a {
-    color:#fff;
-    background: #DB6E82;
-    border-radius:4px;
-    text-align:center;
-    text-decoration:none;
-    font-family:fontawesome;
-    position: relative;
-    display: inline-block;
-    width:40px;
-    height:28px;
-    padding-top:12px;
-    margin:0 2px;
-    -o-transition:all .5s;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
-     -webkit-font-smoothing: antialiased;
-  }
-  
-  .contLinks .linkedIn{
-      background-image:url('images/link.png');
-      background-size:cover;
-  }
-
-  .contLinks .dribble{
-    background-image:url('images/dribbblw.jpg');
-    background-size:cover;    
-  }
-
-  .contLinks .behance{
-    background-image:url('images/behance.jpg');
-    background-size:cover;    
-  }
-  /* pop-up text */
-  
-  .contLinks a span {
-    color:#666;
-    position:absolute;
-    font-family:sans-serif;
-    bottom:0;
-    left:-25px;
-    right:-25px;
-    padding:5px 7px;
-    z-index:-1;
-    font-size:14px;
-    border-radius:2px;
-    background:#fff;
-    visibility:hidden;
-    opacity:0;
-    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  /* pop-up text arrow */
-  
- .contLinks a span:before {
-    content:'';
-    width: 0; 
-    height: 0; 
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #fff;
-    position:absolute;
-    bottom:-5px;
-    left:40px;
-  }
-  
-  /* text pops up when icon is in hover state */
-  
-  .contLinks a:hover span {
-    bottom:50px;
-    visibility:visible;
-    opacity:1;
-  }
-
-  .arrowToTop{
-      float:left;
-      width:20%;
-      margin:auto;
-      background-color:lightgray;
-      height:150px;
-  }
-
-  .arrowToTop .arrow{
-    margin-top:5px;
-    margin-left:40%;
-  }
-
-  .arrowToTop button{
-      border:0;
-      background-color:lightgray;      
-  }
-
-  .arrowToTop img{
-      width:50px;
-      border:0;
-      margin-bottom:10px;
-  }
-
-  .arrowToTop p{
-    padding-left:2px;
-    writing-mode: vertical-lr;
-    text-orientation:mixed;
-  }

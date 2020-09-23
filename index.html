@@ -8,19 +8,20 @@
     <link type="text/css" rel="stylesheet" href="style.css">    
 </head>
 <body>
-      <div class='container'>
-        
-            <div class='navbar'>
-                <p class='navHead'>Anamika Pal</p>
-                <div class='nav'>
-                    <ul>
-                        <li><button onclick="scrollToTop(event)" ><a>Home</a></button></li>
-                        <li><button><a href='resume.html'>Resume</a></button></li>
-                        <li><button onclick="scrollToWork(event)" ><a>Work</a></button></li>
-                        <li><button onclick="scrollToContact(event)" ><a>Contact</a></button></li>
-                    </ul>
-                </div>
-            </div>
+    <div class='navbar'>
+        <p class='navHead'>Anamika Pal</p>
+        <div class='nav'>
+            <ul>
+                <li><button onclick="scrollToTop(event)" >Home</button></li>
+                <li><button onclick="scrollToWork(event)" >Work</button></li>
+                <li><button onclick="scrollToContact(event)" >Contact</button></li>
+                <li><button class='resume'><a href='resume.html'>Resume</a></button></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class='container'>    
          
          <div id='header'>
 
@@ -28,7 +29,7 @@
                    <span class='special'>Hi, I am Anamika Pal</span>
                    <br />
                    <br />
-                    A friendly, self-motivated & passionate multi disciplinary <b>Designer&nbsp;&&nbsp;Illustrator</b>
+                    A friendly, self-motivated & passionate <b>Designer&nbsp;&&nbsp;Illustrator</b>
                     with focus on branding UI/UX, logo design and illustration. My forte is creating user-oriented designs & engaging digital experiences.
                    <br/>
             </p>
@@ -118,33 +119,25 @@
 
     </div>
     <div id='contact'>
-        <h1 class='heading'>Get In Touch.</h1>
-
-        <div class='contact-content'>
-            <div class='contDetails'>  
-                <a href="mailto: anamikapal562@gmail.com" className='email'>anamikapal562@gmail.com</a>           
-            </div>
-            <div class='contLinks'>
-                <a target='_blank' href='https://www.linkedin.com/in/anamika-pal' class='linkedIn'><span>LinkedIn</span></a>
-                <a target='_blank' href='https://dribbble.com/anamika_11pal' class='dribble'><span>Dribbble</span></a>
-                <a target='_blank' href='https://www.behance.net/anamikapal' class='behance'><span>Behance</span></a>
-            </div>
-
+        <h3 class='c1'>Like what you see?</h3>
+        <h1 class='c2'><u>Get in Touch!</u></h1>
+        <div class='contDetails'>  
+            <a href="mailto: anamikapal562@gmail.com" className='email'>anamikapal562@gmail.com</a>           
         </div>
+        <div class='links'>
+            <div class='linkSub'>
+                <a target='_blank' href='https://www.linkedin.com/in/anamika-pal' class='linkedIn'><u>LinkedIn</u></a>
+            </div>
+            <div class='linkSub'>
+                <a target='_blank' href='https://dribbble.com/anamika_11pal' class='dribble'><u>Dribbble</u></a>                
+            </div>
+            <div class='linkSub'>
+                <a target='_blank' href='https://www.behance.net/anamikapal' class='behance'><u>Behance</u></a>                
+            </div>
+        </div>
+ 
 
     </div>
-    <div class='arrowToTop'>
-        <div class=arrow>
-            <button onclick="scrollToTop(event)" >
-                <img src='images/up.png' />
-            </button>
-            <p>Back To Top</p>
-        </div>
-
-        <!-- <div class='textTop'>
-            <p>Back To Top</p>
-        </div> -->
-    </div>             
     <script src='func.js'></script>
 </body>
 </html>
