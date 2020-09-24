@@ -39,7 +39,7 @@ button:active {
 .navbar{
     position:fixed;
     width: 100%;
-    background-color:gray;
+    background-color: #263145;
     color:white;
     padding-left: 100px;
     z-index:100;
@@ -73,7 +73,7 @@ button:active {
 
 .nav button{
     border:0;
-    background-color: gray;
+    background-color: #263145;
     color:white;
     min-height:30px;
     font-size:1.1em;
@@ -105,7 +105,7 @@ button:active {
     height: 85vh;
     padding-top: 100px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: lightgray;
+    background-color: #bcc0c7;
 }
 
 #header .headerBox{
@@ -258,6 +258,16 @@ button:active {
 .part4{
     margin-left:20%;
     font-size:1.2em;
+    height: 40px;
+}
+
+.part4 .nextPage{
+    padding:5px;
+    width:220px;
+    height:40px;
+    background-color: #4675A8;
+    color: white;
+    border-radius: 5px;
 }
 
 .nextPage p{
@@ -267,6 +277,7 @@ button:active {
 }
 
 .nextPage img{
+    margin-top:5px;
     float:left;
     width:20px;
 }
@@ -342,7 +353,7 @@ button:active {
 #contact{
     width:100%;
     float:left;
-    background-color:gray;
+    background-color:#75808d;
     color: white;
     padding:30px;
     border:0;
