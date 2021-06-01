@@ -138,28 +138,6 @@ button:active {
     border-top: 2px solid black;
 }
 
-#skillBox{
-    height: 80px;
-    width:60%;
-    margin:auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top:30px;
-    padding-bottom: 30px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-#skillBox .skill{
-    width:33%;
-    float:left;
-    text-align:center;
-}
-
-#skillBox img{
-    height:80px;
-}
-
 #work{
     min-height: 100vh;
     padding-top: 50px;
@@ -171,189 +149,148 @@ button:active {
     float: left;
     background-color: white;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lato';
     font-size:1.2em;
 }
 
-.appDesign{
-    min-height: 90vh;
-    display: block;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-top: 50px;
+.projHead{
+    margin-left: 150px;
+    font-size: 1.5em;
 }
 
-.appDesign .desc{
-    background-color: #e0e5f9;
-    min-height:450px;
-    padding-top:50px;
+.projBox{
+    min-height: 40vh;
+    display: flex;
+    margin: 0 150px 100px 150px;
+    border-left: 4px darkgreen solid;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.appDesign .part1{
-    width:60%;
-    margin:auto;
-    margin-top:20px;
-    margin-bottom: 30px;
-    text-align:left;
-}
-
-.part1 .logo{
+.projBox .leftProjBox{
+    width: 50%;
+    padding: 20px;
     background-color: white;
-    margin-right:20px;
-    margin-left:0;
-    float:left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10%;
 }
 
-.part1 .logo img{
-    border-radius: 10%;
-}
-
-.part1 h2{
-    font-size:2.5em;
-    color:#4675A8;
-    margin-top:5px;
-    margin-bottom:0;
-}
-
-.part1 h4{
-    margin-top:5px;
-    font-size:1em;
-}
-
-.appDesign .part2 {
-    width: 60%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-.appDesign .part3{
-    width: 90%;
-    margin-left:10%;
-    height:100px;
-    padding-left:60px;
-}
-
-.part3 .elem{
-    width: 25%;
-    margin-right: 5%;
-    float: left;
-    margin-top:30px;
-    padding-top:2px;
-    padding-bottom:2px;
-}
-
-.part3 .mid{
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
-
-.part3 .elem p{
-    margin:2px;
-}
-
-.part4{
-    margin-left:20%;
-    font-size:1.2em;
-    height: 40px;
-}
-
-.part4 .nextPage{
+.extendProj .nextPage{
     padding:5px;
     width:220px;
     height:40px;
-    background-color: #4675A8;
+    background-color: darkgreen;
     color: white;
     border-radius: 5px;
+    font-size: 1.4em;
 }
 
-.nextPage p{
+.extendProj .nextPage p{
     float:left;
     margin:5px;
     margin-right:20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.nextPage img{
+.extendProj .nextPage img{
     margin-top:5px;
     float:left;
     width:20px;
 }
 
-
-.appDesign .image img{
-    height: 500px;
+.projBox .rightProjBox{
+    width: 50%;
 }
 
-#background{
-    position: absolute;
-    z-index: 0;
+.projBox .rightProjBox img{
+    width: 100%;
+    object-fit: scale-down;
 }
 
-#topImage{
-    position: absolute;
-    z-index:20;
-    margin-left:100px;
+.more{
+    margin: 0 150px 100px 150px;
 }
 
-.logoDesign{
-    min-height: 120vh;
-    padding-left: 40px;
-    width:60%;
-    margin:auto;
-    margin-bottom: 50px;
-    text-align:center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#aboutMe{
+    width: 100%;
+    font-size: 1.4em;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    border: 4px solid black;
+    border-radius: 15px;
+    background-color: white;
 }
 
-.logoDesign .image{
-    width:33%;
-    float: left;
-    align-content:center;
-}
-
-.logoDesign .image img{
-    width:200px;
-    height:200px;
+#aboutMe img{
+    height: 30px;
     margin: 20px;
-    border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
 }
 
-.longLeft{
-    width:60%;
-    float:left;
-    align-content:center;
+#extraWork{
+    display: none;
 }
 
-.longLeft img{
-    width:400px;
-    height:200px;
-    margin: 20px;
-    border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#extraWork .workHeading{
+    margin-left: 150px;
+    margin-bottom: 0px;
+    padding: 5px;
+    font-size: 1.4em;
+    height: 20px;
 }
 
-.longRight{
-    width:40%;
-    float:left;
-    align-content:center;
+#logoDesigns{
+    margin: 30px 150px 20px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.longRight img{
-    width:250px;
-    height:200px;
-    margin: 20px;
-    border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#logoDesigns img{
+    height: 200px;
+    flex: 1 1 1;
+    margin: 20px 0;
+}
+
+#illus{
+    margin: 30px 150px 100px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#illus img{
+    height: 250px;
+    flex: 1 1 1 1;
+    margin: 20px 0;
+}
+
+#abtMe{
+    margin: 30px 150px 100px 150px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 1.5em;
+}
+
+#abtMe .abtMeImg{
+    padding: 25px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#abtMe .abtMeImg img{
+    width: 80%;
+    border-radius: 15px;
+}
+
+#abtMe .abtMeDesc{
+    padding: 20px;
+    padding-top: 0;
 }
 
 #contact{
     width:100%;
     float:left;
-    background-color:#75808d;
+    background-color:black;
     color: white;
     padding:30px;
     border:0;
@@ -371,11 +308,6 @@ button:active {
     border-radius:5px;
 }
 
-#contact a:hover{
-    background-color: lightgray;
-    color: black;
-}
-
 #contact .contDetails{
     width:30%;
     margin:auto;
@@ -385,11 +317,48 @@ button:active {
 }
 
 #contact .links{
-   margin-top:20px;
+   margin: 20px 150px 0 150px;
 }
 
 #contact .links .linkSub{
-    width:33%;
-    float:left;
+    display: inline-block;
+    justify-content: center;
     font-size:1.2em;
+    margin: 0 20px;
+    border-radius: 15px;
+    box-shadow: 2px 1px 5px white;
+}
+
+#contact a:hover{
+    background-color: transparent;
+}
+
+#contact .links img{
+    width: 50px;
+}
+
+#petalApp{
+    border-left: 4px solid #4675A8;
+}
+
+#petalApp .extendProj .nextPage{
+    background-color: #4675A8;
+}
+
+
+#buyMyCar{
+    border-left: 4px solid #F37428;
+}
+
+#buyMyCar .extendProj .nextPage{
+    background-color: #F37428;
+}
+
+
+#oviFit{
+    border-left: 4px solid #1F3B48;
+}
+
+#oviFit .extendProj .nextPage{
+    background-color: #1F3B48;
 }

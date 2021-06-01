@@ -428,7 +428,7 @@ h1 {
   width: 400px;
   padding: 15px;
   /* background: #F45B69; */
-  background-color: khaki;
+  background-color: lightgray;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -448,7 +448,7 @@ h1 {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent khaki transparent transparent;
+  border-color: transparent lightgray transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -458,7 +458,7 @@ h1 {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent khaki;
+  border-color: transparent transparent transparent lightgray;
 }
 
 time {
@@ -829,7 +829,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: khaki;
+  background: lightgray;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -887,9 +887,9 @@ time {
 #contact{
   width:100%;
   float:left;
-  background-color:#75808d;
+  background-color:black;
   color: white;
-  padding: 30px;
+  padding:30px;
   border:0;
   text-align:center;
   font-size: 1.1em;
@@ -905,11 +905,6 @@ time {
   border-radius:5px;
 }
 
-#contact a:hover{
-  background-color: lightgray;
-  color: black;
-}
-
 #contact .contDetails{
   width:30%;
   margin:auto;
@@ -919,11 +914,22 @@ time {
 }
 
 #contact .links{
- margin-top:20px;
+ margin: 20px 150px 0 150px;
 }
 
 #contact .links .linkSub{
-  width:33%;
-  float:left;
+  display: inline-block;
+  justify-content: center;
   font-size:1.2em;
+  margin: 0 20px;
+  border-radius: 15px;
+  box-shadow: 2px 1px 5px white;
+}
+
+#contact a:hover{
+  background-color: transparent;
+}
+
+#contact .links img{
+  width: 50px;
 }
