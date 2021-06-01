@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Anamika Pal | Portfolio</title>
     <link type="text/css" rel="stylesheet" href="style.css">    
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 </head>
 <body>
     <div class='navbar'>
@@ -34,117 +35,154 @@
             </div>
          </div>
 
-         <div id='skillBox'>
-             <div class='skill'>
-                <img src='images/xd.png' />
-             </div>
-             <div class='skill'>
-                <img src='images/figma.JPG' />
-             </div>
-             <div class='skill'>
-                <img src='images/ai.png' />
-             </div>
-             
-         </div>
-
          <div id='work'>
 
                <div class='work-content'>
-                   
-                    <div class="appDesign" >
-
-                        <div class="desc">
-                            <div class='part1'>
-                                <div class='logo'>
-                                    <img src='images/Asset 11.png' width='70px' />
-                                </div>
-                                <div class='text'>
-                                    <h2>PETAL</h2>
-                                    <h4>Parents Who care</h4>
-                                </div>
-                            </div>
-                            <div class='part2'>
-                                <p>For parents to track their child's progress &
-                                    help them in deciding their career and goals.
-                                </p>
-                            </div>
-                            <div class='part3'>
-                                <div class='elem'>
-                                    <p>User Research</p>
-                                </div>
-                                <div class='elem mid'>
-                                    <p>UX Design</p>
-                                </div>
-                                <div class='elem'>
-                                    <p>UI Design</p>
-                                </div>
-                            </div>
-                            <div class='part4'>    
+                   <div class="projHead">
+                       <p>Product Designer</p>
+                   </div>
+                   <div class="projBox" id="petalApp">
+                        <div class="leftProjBox">
+                            <h2>PETAL App</h2>
+                            <h3>User Research&emsp;|&emsp;UX Design&emsp;|&emsp;UI Design</h3>
+                            <h3>For parents to track their child's progress & help them in deciding their career and goals.</h3>
+                            <div class='extendProj'>
                                 <a href='page1.html'>
                                     <div class='nextPage'>
                                         <p>View case study</p>
                                         <img src='images/right.png' />
                                     </div>
-                                </a>                                
+                                </a> 
+                            </div> 
+                        </div>
+                        <div class="rightProjBox">
+                            <img src='images/petalIntro.png' />
+                        </div>
+                    </div>
+                    <div class="projHead">
+                        <p>Visual Designer</p>
+                    </div>
+                   <div class="projBox" id="buyMyCar">
+                        <div class="leftProjBox">
+                            <h2>BuyMyCar.in</h2>
+                            <h3>UX Design&emsp;|&emsp;Visual Design</h3>
+                            <h3>Products that would allow you to easily sell and buy second hand cars online.</h3>
+                            <div class='extendProj'>
+                                <a href='buyMyCar.html'>
+                                    <div class='nextPage'>
+                                        <p>View case study</p>
+                                        <img src='images/right.png' />
+                                    </div>
+                                </a> 
+                            </div> 
+                        </div>
+                        <div class="rightProjBox">
+                            <img src='images/buyMyCarIntro.png' />
+                        </div>
+                   </div>
+                    <div class="projHead">
+                        <p>Product Designer</p>
+                    </div>
+                   <div class="projBox" id="oviFit">
+                        <div class="leftProjBox">
+                            <h2>OviFIT</h2>
+                            <h3>User Research&emsp;|&emsp;UX Design&emsp;|&emsp;UI Design</h3>
+                            <h3>A platform that is mediator between fitness service providers and users, where they can market themselves and provide required services.</h3>
+                            <div class='extendProj'>
+                                <a href='page3.html'>
+                                    <div class='nextPage'>
+                                        <p>View case study</p>
+                                        <img src='images/right.png' />
+                                    </div>
+                                </a> 
+                            </div> 
+                        </div>
+                        <div class="rightProjBox">
+                            <img src='images/oviFitIntro.png' />
+                        </div>
+                    </div>
+
+                    <div class="more">
+                        <button id="aboutMe" onClick="toggleVis(event)">
+                            <h2>More About Me</h2>
+                            <img src='images/down.png' />
+                        </button>
+                    </div>
+
+                    <div id="extraWork">
+
+
+                        <div class="workHeading">
+                            <h3>Logo Design</h3>
+                        </div>
+                        <div id="logoDesigns">
+                            <img src="images/logo1.png" />
+                            <img src="images/logo2.png" />
+                            <img src="images/logo3.png" />
+                            <img src="images/logo4.png" />
+                            <img src="images/logo5.png" />
+                            <img src="images/logo6.png" />
+                        </div>
+
+                        <div class="workHeading">
+                            <h3>Illustrations</h3>
+                        </div>
+                        <div id="illus">
+                            <img src="images/illus1.png" />
+                            <img src="images/illus2.png" />
+                            <img src="images/illus3.png" />
+                            <img src="images/illus4.png" />
+                            <img src="images/illus5.png" />
+                            <img src="images/illus6.png" />
+                            <img src="images/illus7.png" />
+                            <img src="images/illus8.png" />
+                        </div>
+
+                        <div class="workHeading">
+                            <h3>About Me</h3>
+                        </div>
+                        <div id="abtMe">
+                            <div class="abtMeImg">
+                                <img src="images/abtMe.jpg" />
                             </div>
-       
+                            <div class="abtMeDesc">
+                                <p>
+                                    Hi, I am Anamika. My love for creativity & problem solving led me become a designer. Despite having a graduation in
+                                    Instrumentation & control Engineering, I chose to be a Designer. I started learning about design by myself in college.
+                                    Since then I have learned most of the skills by myself. I love to explore different things in design. In a single line,
+                                    I am a life long learner, may be a bit slow, but with never giving up attitude.
+                                </p>
+                                <p>
+                                    So, basically I'm a friendly, self-motivated & passionate Designer & Illustratore with focus on branding UI/UX, logo 
+                                    design and illustration, curretnly final year student at NIT Jalandhar.
+                                </p>
+                                <p>
+                                    Apat from Designing, my interests are travelling, basketball and food.
+                                </p>
+                            </div>
                         </div>
+                    </div>
 
-                        <div class="image">
-                            <img src='images/Asset 10.png' id='background'/>
-                            <img src='images/screen3.png' id='topImage'/>
-                        </div>
-
-                   </div>
-
-                   <div class="logoDesign">
-
-                        <h2>Logos & Illustrations</h2>
-
-                        <div class="image">
-                           <img src='images/Asset 1.png' class='left' />
-                        </div>
-                        <div class="image">
-                           <img src='images/m 2.png' class='right' />
-                        </div>
-                        <div class="image">
-                            <img src='images/veefit vent.png' class='left' />
-                        </div>
-                        <div class="image">
-                            <img src='images/ovis12.png' class='right' />
-                        </div>
-                        <div class="image">
-                            <img src='images/ashu.png' class='left' />
-                        </div>
-                        <div class="image">
-                            <img src='images/Asset 11.png' class='right' />
-                        </div>
-                        <div class="longLeft">
-                            <img src='images/3d.PNG' class='left' />
-                        </div>
-                        <div class="longRight">
-                            <img src='images/basket.PNG' class='right' />
-                        </div>                        
-                   </div>
                </div>
          </div>
 
 
     </div>
     <div id='contact'>
-        <h1 class='c2'>Get in Touch!</h1>
-        <div class='contDetails'>  
-            <a href="mailto: anamikapal562@gmail.com" className='email'>anamikapal562@gmail.com</a>           
-        </div>
+        <h4>Like what you see?</h4>
+        <h1 class='c2'><u>Let's Connect!</u></h1>
         <div class='links'>
             <div class='linkSub'>
-                <a target='_blank' href='https://www.linkedin.com/in/anamika-pal' class='linkedIn'><u>LinkedIn</u></a>
+                <a target='_blank' href='https://www.linkedin.com/in/anamika-pal' class='linkedIn'><img src='images/linkdin.png' /></a>
             </div>
             <div class='linkSub'>
-                <a target='_blank' href='https://dribbble.com/anamika_11pal' class='dribble'><u>Dribbble</u></a>                
+                <a target='_blank' href='https://dribbble.com/anamika_11pal' class='dribble'><img src='images/dribbble.png' /></a>                
             </div>
             <div class='linkSub'>
-                <a target='_blank' href='https://www.behance.net/anamikapal' class='behance'><u>Behance</u></a>                
+                <a target='_blank' href='https://www.behance.net/anamikapal' class='behance'><img src='images/behance.png' /></a>                
+            </div>
+            <div class='linkSub'>
+                <a href="mailto: anamikapal562@gmail.com" className='email'><img src='images/mail.png' /></a>                
             </div>
         </div>
  
