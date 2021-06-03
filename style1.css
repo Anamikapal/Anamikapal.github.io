@@ -62,7 +62,7 @@ button:active {
   z-index : 100;
   position: fixed;
   top: 10px;
-  right: 10px;
+  right: 100px;
 }
 
 .nav ul{
@@ -107,7 +107,7 @@ button:active {
 .navbarV {
   position: fixed;
   z-index: 999;
-  top: 50%;
+  top: 40%;
   right: 50px;
   transform: translateY(-50%);
 }
@@ -887,7 +887,7 @@ time {
 #contact{
   width:100%;
   float:left;
-  background-color:black;
+  background-color:#263145;
   color: white;
   padding:30px;
   border:0;
@@ -924,6 +924,7 @@ time {
   margin: 0 20px;
   border-radius: 15px;
   box-shadow: 2px 1px 5px white;
+  background-color: black;
 }
 
 #contact a:hover{
