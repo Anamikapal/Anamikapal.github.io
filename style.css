@@ -8,6 +8,7 @@ body{
     image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
     image-rendering: crisp-edges;
     -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
@@ -56,7 +57,7 @@ button:active {
     z-index : 100;
     position: fixed;
     top: 10px;
-    right: 10px;
+    right: 100px;
 }
 
 .nav ul{
@@ -132,6 +133,8 @@ button:active {
 }
 
 #header .introBox{
+    font-size: 1.1em;
+    font-weight: lighter;
     width:50%;
     margin:auto;
     padding-top: 5px;
@@ -163,37 +166,45 @@ button:active {
     display: flex;
     margin: 0 150px 100px 150px;
     border-left: 4px darkgreen solid;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .projBox .leftProjBox{
     width: 50%;
     padding: 20px;
+    padding-right: 40px;
     background-color: white;
 }
 
+.leftProjBox h2{
+    font-size: 1.6em;
+}
+
 .extendProj .nextPage{
-    padding:5px;
-    width:220px;
-    height:40px;
+    padding:0 5px;
     background-color: darkgreen;
     color: white;
     border-radius: 5px;
     font-size: 1.4em;
+    display: inline-block;
 }
 
+
 .extendProj .nextPage p{
-    float:left;
+
     margin:5px;
     margin-right:20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px;
+    padding-top: 0;
+    font-size: 1.2em;
+    float: left;
 }
 
 .extendProj .nextPage img{
-    margin-top:5px;
-    float:left;
-    width:20px;
+    margin-top: 7px;
+    margin-right: 5px;
+    width:18px;
+    float: right;
 }
 
 .projBox .rightProjBox{
@@ -207,23 +218,34 @@ button:active {
 
 .more{
     margin: 0 150px 100px 150px;
+    background-color: lightsalmon;
 }
 
 #aboutMe{
-    width: 100%;
     font-size: 1.4em;
+    float: right;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+    padding: 5px;
     padding-left: 20px;
-    border: 4px solid black;
+    border: 2px solid black;
     border-radius: 15px;
     background-color: white;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    margin-top: 0;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+}
+
+#aboutMe h2{
+    margin: 0;
 }
 
 #aboutMe img{
-    height: 30px;
-    margin: 20px;
-    margin-top: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
 }
 
 #extraWork{
@@ -235,33 +257,39 @@ button:active {
     margin-bottom: 0px;
     padding: 5px;
     font-size: 1.4em;
-    height: 20px;
+    height: 30px;
+}
+
+.bolder{
+    margin-bottom: 20px;
+    font-weight:bolder;
+}
+
+.lighter{
+    font-weight: lighter;
 }
 
 #logoDesigns{
     margin: 30px 150px 20px 150px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #logoDesigns img{
-    height: 200px;
-    flex: 1 1 1;
-    margin: 20px 0;
+    width: 90%;
+    padding: 5%;
+
 }
 
 #illus{
     margin: 30px 150px 100px 150px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #illus img{
-    height: 250px;
-    flex: 1 1 1 1;
-    margin: 20px 0;
+    width: 90%;
+    padding: 5%;
 }
 
 #abtMe{
@@ -290,7 +318,7 @@ button:active {
 #contact{
     width:100%;
     float:left;
-    background-color:black;
+    background-color:#263145;
     color: white;
     padding:30px;
     border:0;
@@ -321,6 +349,7 @@ button:active {
 }
 
 #contact .links .linkSub{
+    background-color: black;
     display: inline-block;
     justify-content: center;
     font-size:1.2em;
